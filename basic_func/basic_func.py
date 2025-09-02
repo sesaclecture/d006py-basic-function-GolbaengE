@@ -1,32 +1,25 @@
 def add(a, b):
     return a+b
-    pass
 
 
 def sub(a, b):
     return a-b
-    pass
 
 
 def mul(a, b):
     return a*b
-    pass
 
 
 def div(a, b):
     return a/b
-    pass
 
 
 def power(base, pow):
     return base ** pow
-    pass
 
 
 def square(base):
     return base*base
-    pass
-
 
 def greet(이름="낯선자", 나이=20):
     인사 =""
@@ -36,5 +29,4 @@ def greet(이름="낯선자", 나이=20):
         인사 = "안녕"
     else:
         인사 = "안녕하신가"
-    return 인사 + " " + f"{이름}"
-    pass
+    return 인사 + " " + f"{이름}!"
